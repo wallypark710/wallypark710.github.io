@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Vinit Kumar
+title: About WALLi
 ---
 
 <h1 class="owner-name">{{ site.owner.name}} </h1>
