@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[React] this binding of the callback function"
+title: "[React] 'this' binding of the callback function"
 date: 2019-01-11 10:00:00
 ---
 
