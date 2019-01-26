@@ -63,18 +63,19 @@ npm start
 
 src폴더에 있는 파일을 지우고 컴포넌트를 작성한다.
 
-
-
 ## Start React
-
 - Component를 구현할 때는 다음과 같은 흐름으로 진행한다.
+
   1. 컴포넌트 생김새 정의( DOM태그 작성, CSS 스타일 작성 )
   2. 상태 관리 및 props값 전달.
+
 - 기능별로 컴포넌트를 분리하여 작성한다. 각각의 컴포넌트에 대한 CSS역시 분리하여 작성한다.
+
 - 컴포넌트간의 데이터 이동은 부모 컴포넌트를 통해서 진행한다. 컴포넌트끼리 직접 데이터이동은 삼가한다.
+
 - 메인 컴포넌트가 모든 데이터를 다 가지고 있고, 각각의 컴포넌트에게 필요한 데이터를 뿌려준다.
 
-#### Component 불러오기
+## Component 불러오기
 
 ```javascript
 import React, { Component } from 'react';
@@ -83,7 +84,7 @@ import './App.css'
 
 - 파일에서 JSX를 사용하려면, 꼭 React를 import 해야한다.
 
-#### Component 만들기
+## Component 만들기
 
 ```javascript
 class App extends Component {
@@ -128,12 +129,17 @@ export default App;
   import App from './App'
   ```
 
-#### Component 출력
+
+
+## Component 출력
 
 ```javascript
 ReactDOM.render( <App />, document.getElementById('root') );
 ```
-
 - 브라우저 상에 작성한 컴포턴트를 보여주기 위해서는 `ReactDOM.render` 함수를 사용한다.
+
 - 첫 번째 파라미터는 렌더링 할 결과물
+
 - 두 번째 파라미터는 컴포넌트를 어떤 DOM에 그릴지를 지정한다.
+
+
